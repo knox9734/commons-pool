@@ -105,4 +105,6 @@ public abstract class BasePooledObjectFactory<T, E extends Exception> extends Ba
      * @return The provided instance, wrapped by a {@link PooledObject}
      */
     public abstract PooledObject<T> wrap(T obj);
+
+    // this is a test comment
 }
